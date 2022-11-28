@@ -1,12 +1,12 @@
 {
     "@context": "http://iiif.io/api/presentation/2/context.json",
-    "@id": "https://iiif.vam.ac.uk/experiences/curtain/raphael/manifest.json",
+    "@id": "https://github.com/mastermert/wsi-curtain-viewer/blob/master/src/manifest.json",
     "@type": "sc:Collection",
     "label": "V&A Raphael tapestry viewer",
     "manifests": [
       {
         "@type": "sc:Manifest",
-        "@id": "https://iiif.vam.ac.uk/experiences/curtain/raphael/O102006/manifest.json",
+        "@id": "https://github.com/mastermert/wsi-curtain-viewer/blob/master/src/Patient1-manifest.json",
         "label": "Patient 1"
       },
       {
