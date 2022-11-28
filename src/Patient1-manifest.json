@@ -1,0 +1,73 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://iiif.vam.ac.uk/experiences/curtain/raphael/O102006/manifest.json",
+    "@type": "sc:Manifest",
+    "label": "Patient 1",
+    "viewingDirection": "left-to-right",
+    "sequences": [
+      {
+        "@id": "https://iiif.vam.ac.uk/experiences/curtain/raphael/O102006/sequence/normal",
+        "@type": "sc:Sequence",
+        "canvases": [
+          {
+            "@id": "https://iiif.vam.ac.uk/demo-raphael-manifest-1/canvas/c2",
+            "@type": "sc:Canvas",
+            "label": "Original WSI",
+            "metadata": [
+              {"label": "Imaging technique", "value": "Original WSI"}
+            ],
+            "height": 38623,
+            "width": 48111,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "resource": {
+                  "@id": "https://github.com/mastermert/wsi-curtain-viewer/blob/master/tumor_tissue/patient1.jpg",
+                  "@type": "dctypes:Image",
+                  "format": "image/jpeg",
+                  "height": 38623,
+                  "width": 48111,
+                  "service": {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://framemark.vam.ac.uk/collections/2020MP2543",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                },
+                "on": "https://iiif.vam.ac.uk/demo-raphael-manifest-1/canvas/c2"
+              }
+            ]
+          },
+          {
+            "@id": "https://iiif.vam.ac.uk/demo-raphael-manifest-1/canvas/c1",
+            "@type": "sc:Canvas",
+            "label": "Heatmap",
+            "metadata": [
+              {"label": "Imaging technique", "value": "Heatmap"}
+            ],
+            "height": 38623,
+            "width": 48111,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "resource": {
+                  "@id": "https://github.com/mastermert/wsi-curtain-viewer/blob/master/tumor_tissue/patient1-heatmap.jpg",
+                  "@type": "dctypes:Image",
+                  "format": "image/jpeg",
+                  "height": 38623,
+                  "width": 48111,
+                  "service": {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://framemark.vam.ac.uk/collections/2020MP9634",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                },
+                "on": "https://iiif.vam.ac.uk/demo-raphael-manifest-1/canvas/c1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
